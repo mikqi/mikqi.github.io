@@ -1,0 +1,206 @@
+/*PATTERNICO: http://patternico.com/#Sd5zFqnwElC07CWw*/
+
+@charset "UTF-8";
+@font-face {
+  font-family: "socicon";
+  src: url("../fonts/socicon.eot");
+  src: url("../fonts/socicon.eot?#iefix") format("embedded-opentype"), url("../fonts/socicon.woff") format("woff"), url("../fonts/socicon.ttf") format("truetype"), url("../fonts/socicon.svg#socicon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Josefin Slab', serif;
+}
+
+body {
+  top: 0;
+  left: 0;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.accent {
+  color: #3db097;
+  font-weight: 700;
+}
+
+.container {
+  background: url('../images/pattern.png') center center repeat;
+  height: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  -ms-text-align-last: left;
+  text-align-last: left;
+}
+
+.item {
+  max-width: 70%;
+}
+
+.container > .item > h1 {
+  font-size: 5rem;
+  color: #3db097;
+  font-weight: 300;
+}
+
+.container > .item > p {
+  font-size: 2rem;
+  color: #3db097;
+  font-weight: 300;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #3db097;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.container-social {
+  height: 50px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+  -ms-text-align-last: left;
+  text-align-last: left;
+  width: 100%;
+}
+.container-socials{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-blog{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-social--icon {
+  height: 40px;
+  width: 40px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  -ms-text-align-last: left;
+  text-align-last: left;
+  border-radius: 50% 50%;
+  transition: .5s ease-in;
+  border: 1px solid #3db097;
+  color: #3db097;
+  cursor: pointer;
+}
+
+.container-social--icon:hover,
+.container-social--icon:focus,
+.container-social--icon:active {
+  transition: .5s ease-in;
+  border: 1px solid #3db097;
+  background-color: #3db097;
+  color: #fff;
+}
+
+.visit{
+  background: transparent;
+  border: 2px solid #3DB097;
+  padding: 10px 30px;
+  color: #3DB097;
+  border-radius: 50px;
+  cursor: pointer;
+  transition:ease .7s;
+  outline:none;
+  font-weight:700;
+}
+
+.visit:hover{
+  background-color:#3DB097;
+  transition:ease .7s;
+  color: #fff;
+}
+/*.visit:hover:after{
+  content: '»';
+}*/
+
+/* ICON SETTING */
+
+[data-icon]:before {
+  font-family: "socicon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  /*line-height: 1;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="socicon-"]:before,
+[class*=" socicon-"]:before {
+  font-family: "socicon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  /*line-height: 1;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.socicon {
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+
+.socicon-twitter:before {
+  content: "\e040";
+}
+
+.socicon-facebook:before {
+  content: "\e041";
+}
+
+.socicon-googleplus:before {
+  content: "\e042";
+}
+
+.socicon-pinterest:before {
+  content: "\e043";
+}
+
+.socicon-linkedin:before {
+  content: "\e049";
+}
+
+.socicon-instagram:before {
+  content: "\e057";
+}
+
+.socicon-github:before {
+  content: "\e030";
+}
