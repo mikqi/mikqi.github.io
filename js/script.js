@@ -52,7 +52,7 @@ window.onload = function() {
   var blog = document.getElementById('blog');
 
   blog.addEventListener('click', function (e) {
-    window.open('https://mikqi.github.io/blog');
+    location.href = 'https://mikqi.github.io/blog';
   })
 
   github.addEventListener('click', function(e) {
