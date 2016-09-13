@@ -2,8 +2,10 @@
 
 ## Built with
 1. Flexbox
-1. [Socicon](http://www.socicon.com/)
-1. [Patternico](http://patternico.com/)
+1. [ReactJS](https://www.facebook.github.io/react/)
+1. [React Router](https://github.com/reactjs/react-router)
+1. [Axios](https://github.com/mzabriskie/axios)
+1. [React Remarkable](https://github.com/acdlite/react-remarkable)
 
 Thanks to Hafizha Husnaisa has accompanied me make this simple site. :v
 
